@@ -12,3 +12,5 @@ public function sendSMS(Request $request, $siteId)
 
   return redirect()->back()->with("success", "SMS sent successfully");
 }
+
+<!-- use [] with name attr of select tag i.e. <select name="select[]" multiple>   -->
